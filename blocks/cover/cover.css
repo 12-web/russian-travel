@@ -1,8 +1,8 @@
 .cover {
-  position: relative;
+  max-width: 1184px;
+  width: 100%;
   height: calc(100vw/1.6);
   max-height: 740px;
-  /* background-image: url('../../../images/cover-trains.jpg');
-  background-repeat: no-repeat;
-  background-position: center center; */
+  margin: 0 auto;
+  position: relative;
 }

@@ -1,23 +1,26 @@
 .footer {
-  margin: 0 16px 24px;
+  width: calc(100vw - 2*16px);
+  margin: 64px auto 24px;
 }
 
 @media screen and (min-width: 768px) {
   .footer {
     display: flex;
     justify-content: space-between;
-    margin: 0 24px 24px;
+    width: calc(100% - 2*24px);
+    margin: 88px auto 24px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .footer {
-    margin: 0 48px 24px;
+    width: calc(100% - 2*48px);
+    margin: 92px auto 24px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .footer {
-    margin: 0 0 24px;
+    width: 100%;
   }
 }
